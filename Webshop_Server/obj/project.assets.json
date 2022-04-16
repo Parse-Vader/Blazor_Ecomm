@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Server\\Webshop_Server.csproj",
+      "projectUniqueName": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Server\\Webshop_Server.csproj",
       "projectName": "Webshop_Server",
-      "projectPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Server\\Webshop_Server.csproj",
+      "projectPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Server\\Webshop_Server.csproj",
       "packagesPath": "C:\\Users\\arjan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Server\\obj\\",
+      "outputPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Models\\Webshop_Models.csproj": {
-              "projectPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Models\\Webshop_Models.csproj"
+            "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Models\\Webshop_Models.csproj": {
+              "projectPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Models\\Webshop_Models.csproj"
             }
           }
         }
