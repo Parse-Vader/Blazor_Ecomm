@@ -1,0 +1,153 @@
+﻿@page "/Learning/Products";
+
+<h1 class="text-success">Product X</h1>
+<div class="row">
+	<div class="col-6 border p-2">
+		<h3 class="text-primary">Products</h3> <hr />
+		Prod Id: @product.ProductId <br />
+		Name: @product.Name <br />
+		Active: @product.IsActive <br />
+		Price: @product.Price <br />
+		Selected option: @selectedProp <br />
+		@if (!String.IsNullOrWhiteSpace(selectedProp))
+		{
+			<p>Property Value: @product.ProductProperties.FirstOrDefault(x => x.Key == selectedProp).Value </p>
+		}
+		This product is: @(product.IsActive? "active" : "not active") <br />
+	</div>
+	<div class="col-6 border p-2">
+		<h3 class="text-primary"> Product info</h3><hr />
+		<div>
+			Active: <input type="checkbox" @bind-value="@product.IsActive" checked="@(product.IsActive?"checked": null)" /> <br />
+		</div>
+		<div>
+			Product options:
+			<select @bind-value="@selectedProp" @bind-value:event="oninput">
+				@foreach (var prop in product.ProductProperties)
+				{
+					<option value="@prop.Key"> @prop.Key </option>
+				}
+			</select>
+		</div>
+
+		<div>
+			Set Price: <input type="number" @bind-value="@product.Price" @bind-value:event="oninput" />   <!-- oninput stand syntax -->
+		</div>
+	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-12">
+		<h1 class="text-success">Product table</h1>
+		<div>
+			<table class="table table-striped">
+				<tbody>
+					@foreach (var prod in ProductList)
+					{
+						<tr @onclick="() => ViewProduct(prod)" >
+							<td>
+								<input type="text" @bind-value="prod.Name" @bind-value:event="oninput" />								
+							</td>
+							<td>
+								<input type="number" @bind-value="prod.Price" @bind-value:event="oninput">
+							</td>
+							<td>
+								<input type="checkbox" @bind-value="prod.IsActive" checked="@(prod.IsActive?"checked":null)"/> 
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table><br />
+			<h1 class="text-success">Product summary</h1> 
+			@if (thisProd != null)
+			{
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<p> <strong>Name: </strong>@thisProd.Name </p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><strong>Price: </strong>@thisProd.Price</p>
+							</td>
+						</tr>
+						<tr>
+							<td>								
+								<p><strong>product: </strong>@(thisProd.IsActive?"is active":"is not active")</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+			}
+			else
+			{
+				<p>Select a product from the table.</p>
+			}
+
+		</div>
+	</div>
+</div>
+
+
+
+@code
+{
+	private string selectedProp = "";
+
+	private Product thisProd = null;
+
+	public void ViewProduct(Product prod){
+		thisProd = prod;
+	}
+
+	Webshop_Models.Product product = new()
+		{
+			ProductId = 1,
+			Name = "RTX3090",
+			IsActive = true,
+			Price = 29.99,
+			ProductProperties = new List<Webshop_Models.ProductProp>()
+		{
+			new ProductProp { Id=1, Key="Color",Value="Red" },
+			new ProductProp { Id=2, Key="Flavour", Value="Salty"},
+			new ProductProp { Id=3, Key="Size", Value = "M"}
+		}
+		};
+
+	List<Product> ProductList = new();
+
+	protected override void OnInitialized()
+	{
+		ProductList.Add(new()
+			{
+				ProductId = 2,
+				Name = "RTX3080",
+				IsActive = false,
+				Price = 12.99,
+				ProductProperties = new List<Webshop_Models.ProductProp>()
+		{
+			new ProductProp { Id=1, Key="Color",Value="Red" },
+			new ProductProp { Id=2, Key="Flavour", Value="Salty"},
+			new ProductProp { Id=3, Key="Size", Value = "M"}
+		}
+			});
+
+		ProductList.Add(new()
+			{
+				ProductId = 3,
+				Name = "RTX3070",
+				IsActive = true,
+				Price = 29.99,
+				ProductProperties = new List<Webshop_Models.ProductProp>()
+		{
+			new ProductProp { Id=1, Key="Color",Value="Red" },
+			new ProductProp { Id=2, Key="Flavour", Value="Salty"},
+			new ProductProp { Id=3, Key="Size", Value = "M"}
+		}
+			});
+
+	}
+}
