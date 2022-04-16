@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Client\\Webshop_Client.csproj": {}
+    "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Client\\Webshop_Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Client\\Webshop_Client.csproj": {
+    "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Client\\Webshop_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Client\\Webshop_Client.csproj",
+        "projectUniqueName": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Client\\Webshop_Client.csproj",
         "projectName": "Webshop_Client",
-        "projectPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Client\\Webshop_Client.csproj",
+        "projectPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Client\\Webshop_Client.csproj",
         "packagesPath": "C:\\Users\\arjan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Client\\obj\\",
+        "outputPath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

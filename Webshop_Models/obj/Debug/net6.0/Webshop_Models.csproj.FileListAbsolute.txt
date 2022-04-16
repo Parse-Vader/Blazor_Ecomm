@@ -10,3 +10,15 @@ C:\Users\arjan\source\repos\Webship_Server\Webshop_Models\obj\Debug\net6.0\Websh
 C:\Users\arjan\source\repos\Webship_Server\Webshop_Models\obj\Debug\net6.0\refint\Webshop_Models.dll
 C:\Users\arjan\source\repos\Webship_Server\Webshop_Models\obj\Debug\net6.0\Webshop_Models.pdb
 C:\Users\arjan\source\repos\Webship_Server\Webshop_Models\obj\Debug\net6.0\ref\Webshop_Models.dll
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\bin\Debug\net6.0\Webshop_Models.deps.json
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\bin\Debug\net6.0\Webshop_Models.dll
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\bin\Debug\net6.0\Webshop_Models.pdb
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\Webshop_Models.csproj.AssemblyReference.cache
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\Webshop_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\Webshop_Models.AssemblyInfoInputs.cache
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\Webshop_Models.AssemblyInfo.cs
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\Webshop_Models.csproj.CoreCompileInputs.cache
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\Webshop_Models.dll
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\refint\Webshop_Models.dll
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\Webshop_Models.pdb
+C:\Users\arjan\source\repos\Blazor_webshop\.git\Blazor_Ecomm\Webshop_Models\obj\Debug\net6.0\ref\Webshop_Models.dll

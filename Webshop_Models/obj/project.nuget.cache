@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GkfPHGCg6L9Fl7HWCJgmT5Rix9Xx0lacpPahbFBnq/xeDeQwEzEzjXLXzteCHuJJiY9IzjWSjo3fSpaQ+pPgCw==",
+  "dgSpecHash": "elcV8Xz94lisw8PLovIv7ImKsylszhkxqgJoRWEdAMZbIoVckNW3Dpb4zFKfGdESmEFz5bvgYS+Pq/Ihxn7anQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\Webshop_Models\\Webshop_Models.csproj",
+  "projectFilePath": "C:\\Users\\arjan\\source\\repos\\Blazor_webshop\\.git\\Blazor_Ecomm\\Webshop_Models\\Webshop_Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
