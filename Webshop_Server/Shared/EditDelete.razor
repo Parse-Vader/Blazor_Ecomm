@@ -1,0 +1,10 @@
+﻿@if (isA)
+{
+	<button class=" btn btn-danger p-2" style="width:80px; " >Delete</button> 
+	<button class=" btn btn-success p-2" style="width:80px; " >Edit</button>
+}
+
+@code {
+	[Parameter]
+	public bool isA { get; set; }
+}

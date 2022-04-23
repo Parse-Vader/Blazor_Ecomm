@@ -1,31 +1,23 @@
 ﻿@page "/products";
 
-<h1 class="text-success">All Products</h1>
+<h1 class="text-success">All Products</h1>  <h3>favorites: @favorites</h3>
 
 <div class="row p-2">
 	@foreach (var item in ProductList)
 	{
-		
-		<div class="col-5 border">
-			<h3 class="text-primary">@item.Name</h3>
-			<div>Id: @item.ProductId</div>
-			Show properties: <input type="checkbox"  checked="@(item.IsActive? "checked" : null)" @bind-value="item.IsActive" @bind-value:event="oninput"/>
-			@if (item.IsActive)
-			{
-				@foreach (var prop in item.ProductProperties)
-				{
-					<p>@prop.Key & @prop.Value</p>
-				}
-			}
-			<button class=" btn btn-danger p-2" style="width:80px; " >Delete</button> 
-			<button class=" btn btn-success p-2" style="width:80px; " >Edit</button>
-	</div>
+		<ProductDisplay p="item" ChangeFunction="ChangeFavorites"/>	
 	}
 </div>
 
 @code {
+	public int favorites { get; set; } = 0;
 
-	
+	protected void ChangeFavorites(bool isSelected)
+	{
+		if (isSelected) favorites++;
+		else favorites--;
+	}
+
 		Webshop_Models.Product product = new()
 		{
 			ProductId = 1,
